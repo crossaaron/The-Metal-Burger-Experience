@@ -18,13 +18,6 @@ app.set("view engine", "handlebars");
 
 // Import routes and give the server access to them.
 
-app.get('/', function (req, res) {
-    burger.selectAll(function (data) {
-        console.log(data);
-    })
-});
-
-
 app.use("/", routes);
 
 app.listen(port);
