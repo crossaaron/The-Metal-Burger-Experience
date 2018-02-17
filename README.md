@@ -106,5 +106,5 @@ All the recommended files and directories from the steps above should look like 
 
 ### Hosting on Heroku
 
-Without all the functionality I did not push to Heroku yet.  Thought it would be better to have it wait.  Feel pretty comfortable with how to do that.  Just out of time 
+Hosted on heroku at https://protected-hamlet-76552.herokuapp.com/ if you'd like to check it out
 
