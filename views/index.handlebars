@@ -1,32 +1,36 @@
-<h1>Silly ol' Metal Themed Program Burgers</h1>
+<div class="container" id="titleBox">
+  <div class="row">
+    <div class="col-sm-4"></div>
+    <div class="col-sm-4" id="main">
+      <h1>METAL BURGERS</h1>
 
-<h2>Burgers Ordered</h2>
+      <h2>Order a Metal Burger</h2>
+      <form class="create-form">
 
-<ul>
-  {{#each burgers}} 
-    {{#unless devoured}} 
-      {{> burgers/burger-block devoured=true}} 
-    {{/unless}} 
-  {{/each}}
-</ul>
+        <div class="form-group">
+          <label for="ca">Burger Name:</label>
+          <input type="text" id="ca" name="name">
+        </div>
 
-<h2>CRUSHED TALLY</h2>
-
-<ul>
-  {{#each burgers}} 
-    {{#if devoured}} 
-      {{> burgers/burger-block devoured=false}} 
-    {{/if}} 
-  {{/each}}
-</ul>
-
-<h2>Order a Metal Burger</h2>
-<form class="create-form">
-
-  <div class="form-group">
-    <label for="ca">Burger Name:</label>
-    <input type="text" id="ca" name="name">
+        <button type="submit" id="orderButton">Order Burger</button>
+      </form>
+    </div>
+    <div class="col-sm-4" id="orderBorder"></div>
   </div>
+</div>
+  
 
-  <button type="submit">Order Burger</button>
-</form>
+<div class="container" id="listField">
+  <div class="row">
+    <div class="col-sm" id="orderedBox">
+      <h2>Burgers Ordered</h2>
+      {{#each burgers}} {{#unless devoured}} {{> burgers/burger-block devoured=true}} {{/unless}} {{/each}}
+    </div>
+    <div class="col-sm" id="crushedBox">
+    <h2>CRUSHED TALLY</h2>
+    {{#each burgers}} {{#if devoured}} {{> burgers/burger-block2 devoured=false}} {{/if}} {{/each}}
+    </div>
+</div>
+</div>
+
+   

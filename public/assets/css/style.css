@@ -1,7 +1,7 @@
 li {
   padding: 5px;
   margin: 5px;
-  background: #faebd7;
+  
 }
 
 .label {
@@ -16,4 +16,39 @@ li {
 
 .form-group {
   margin-bottom: 5px;
+}
+
+body {
+  background-image: url("../img/eddie.jpg")
+}
+
+#main {
+  text-align: center;
+  background:#faebd7;
+  opacity: .75
+  
+}
+
+#titleBox {
+  margin-top: 100px
+}
+
+#listField {
+  text-align: center;
+  margin-top: 20px;
+  
+}
+#orderButton {
+  margin-bottom: 10px
+}
+
+#orderedBox {
+  background:#faebd7;
+  margin-right: 20px;
+  opacity: .75
+}
+
+#crushedBox {
+  background:#faebd7;
+  opacity: .75
 }
