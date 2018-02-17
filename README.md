@@ -88,7 +88,7 @@ All the recommended files and directories from the steps above should look like 
 
 #### Database Setup and Logging Posts Correctly
 
-![alt text](/img/ss1.png)
+![alt text](/public/assets/img/ss1.png)
 ![alt text](/img/ss2.png)
 
 #### View of Page
