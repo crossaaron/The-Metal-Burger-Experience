@@ -4,7 +4,7 @@ var keys = require("./keys.js");
 var mysql = require('mysql');
 
 
-
+var connection;
 if (process.env.JAWSDB_URL) {
     console.log(JAWSDB_URL);
     //Heroku deployment
