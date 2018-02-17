@@ -88,17 +88,17 @@ All the recommended files and directories from the steps above should look like 
 
 #### Database Setup and Logging Posts Correctly
 
-![alt text](/img/ss1.png)
-![alt text](/img/ss2.png)
+![alt text](public/img/ss1.png)
+![alt text](public/img/ss2.png)
 
 #### View of Page
     - Fixed PUT route.  Added DELETE route
 
-![alt text](./img/ss3.png)
+![alt text](public/img/ss3.png)
 
     - Logs the burger info to the console
 
-![alt text](./img/ss4.png)
+![alt text](public/img/ss4.png)
 
 #### Pushed to Heroku
 
