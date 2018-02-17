@@ -12,5 +12,3 @@ if (process.env.JAWSDB_URL) {
         database: "db_name",
     });
 };
-
-module.exports = connection
