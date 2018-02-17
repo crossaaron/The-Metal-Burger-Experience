@@ -1,6 +1,8 @@
-var mysql = require("mysql");
-var connection;
 
+
+
+var mysql = require('mysql');
+var connection;
 if (process.env.JAWSDB_URL) {
     //Heroku deployment
     connection = mysql.createConnection(process.env.JAWSDB_URL);
@@ -14,5 +16,10 @@ if (process.env.JAWSDB_URL) {
         database: "db_name",
     });
 };
+
+connection.connect(function (err) {
+    if (err) throw err;
+    console.log("connected as id " + connection.threadId);
+});
 
 module.exports = connection
