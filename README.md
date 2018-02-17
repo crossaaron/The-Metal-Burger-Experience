@@ -91,13 +91,16 @@ All the recommended files and directories from the steps above should look like 
 ![alt text](/img/ss2.png)
 
 #### View of Page
-    - Missing PUT functionality.  Keep getting errors.... routing is not correct
+    - Fixed PUT route.  Added DELETE route
 ![alt text](/img/ss3.png)
+
+    - Logs the burger info to the console
 ![alt text](/img/ss4.png)
 
-#### Saw a lot of these errors.  
-![alt text](/img/ss5.png)
-![alt text](/img/ss6.png)
+#### Pushed to Heroku
+
+
+
 
 
 
