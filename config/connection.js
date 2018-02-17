@@ -1,18 +1,16 @@
+require('dotenv').config();
+
+var keys = require("./keys.js");
 var mysql = require('mysql');
 
 var connection;
 if (process.env.JAWSDB_URL) {
+    console.log(JAWSDB_URL);
     //Heroku deployment
     connection = mysql.createConnection(process.env.JAWSDB_URL);
 } else {
     //local host
-    connection = mysql.createConnection({
-        root: 3000,
-        host: "localhost",
-        user: "root",
-        password: "",
-        database: "db_name",
-    });
+    connection = mysql.createConnection(keys.sqlLogin)
 };
 
 connection.connect(function (err) {
