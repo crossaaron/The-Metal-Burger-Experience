@@ -1,11 +1,14 @@
-# burgerBoss
-Single Page Front-End / Back-End sql project
+# The Metal Burger Experience
+Single Page Front-End / Back-End sql database application
+
+## Link 
+https://protected-hamlet-76552.herokuapp.com/
 
 ### Overview
 
-A burger logger utilizing MySQL, Node, Express, Handlebars and a homemade ORM following the MVC design pattern; Node and MySQL  query and route data  and Handlebars templates and generates the HTML.
+A burger order logger utilizing MySQL, Node, Express, Handlebars and a homemade ORM following the MVC design pattern; Node and MySQL  query and route data  and Handlebars templates and generates the HTML.
 
-### Burger App
+### App
 
 * Whenever a user submits a burger's name, the app will display the burger on the left side of the page -- waiting to be devoured.
 
@@ -44,45 +47,6 @@ A burger logger utilizing MySQL, Node, Express, Handlebars and a homemade ORM fo
 
      * Create a button in `index.handlebars` that will submit the user input into the database.
 
-#### Directory structure
-
-All the recommended files and directories from the steps above should look like the following structure:
-
-```
-.
-├── config
-│   ├── connection.js
-│   └── orm.js
-│ 
-├── controllers
-│   └── burgers_controller.js
-│
-├── db
-│   ├── schema.sql
-│   └── seeds.sql
-│
-├── models
-│   └── burger.js
-│ 
-├── node_modules
-│ 
-├── package.json
-│
-├── public
-│   ├── assets
-│   │   ├── css
-│   │   │   └── burger_style.css
-│   │   └── img
-│   │       └── burger.png
-│   └── test.html
-│
-├── server.js
-│
-└── views
-    ├── index.handlebars
-    └── layouts
-        └── main.handlebars
-```
 
 ### Screen Shots of Functionality
 
